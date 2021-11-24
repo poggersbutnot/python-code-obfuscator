@@ -9,7 +9,7 @@ Mostly Command Line tool that will obfuscate your code.
 - Obfuscate with and without input files
 - Extra Protection Mode (_EP_)
 - EP Name Layers
-- Best Protection Availiable Mode (BPA)
+- Best Protection Availiable Mode (BPA) (You need to have EP enabled)
 - Simple Default Features
 
 **Examples:**
@@ -30,4 +30,4 @@ exec(str(staticmethod)[(()==())+(()==())+(()==())+(()==())+(()==())+(()==())+(()
 python filename.py <isinputfile> <inputfile> <isextraprot> <extraprotlayer> <isextraprot2>
 ```
 --------------------------
-*The extra protection features are quite unstable.*
+*The extra protection features are quite unstable. However, the default mode has yet to have any errors.*
