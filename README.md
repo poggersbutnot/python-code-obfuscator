@@ -36,7 +36,7 @@ exec(str(staticmethod)[(()==())+(()==())+(()==())+(()==())+(()==())+(()==())+(()
 ```bash.cmd
 python filename.py <isinputfile> <inputfile> <isextraprot> <extraprotlayer> <isextraprot2>
 ```
-- Param Types: (_boolean[true, false], string(filename + extension), boolean[true, false], int, true[true, false]_) <br>
+- Param Types: (_boolean[true, false], string[filename + extensions], boolean[true, false], int, true[true, false]_) <br>
 
 --------------------------
 *The extra protection features are quite unstable. However, the default mode has yet to have any errors.*
