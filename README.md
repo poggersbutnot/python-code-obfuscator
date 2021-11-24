@@ -9,7 +9,7 @@ Mostly Command Line tool that will obfuscate your code.
 - Obfuscate with and without input files
 - Extra Protection Mode (_EP_)
 - EP Name Layers
-- Best Protection Availiable Mode (BPA) (You need to have EP enabled)
+- Best Protection Availiable Mode (BPA)
 - Simple Default Features
 
 **Examples:**
