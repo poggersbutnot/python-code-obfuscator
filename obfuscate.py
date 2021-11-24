@@ -142,11 +142,12 @@ if (len(sys.argv) > 3) and sys.argv[3] == 'true':
     with open('ExtraProtV1OnlyOutput.py', 'w') as file3:
         file3.write(string)
     print('ExtraProtV1 Output: ' + string)
-    if (sys.argv[5] == 'true'):
-        string = "exec('{}')".format("".join("\\x{:02x}".format(ord(c)) for c in string))
-        print('ExtraProtV2 Output: ' + string)
-        with open('ExtraProtV2OnlyOutput.py', 'w') as file4:
-            file4.write(string)
+
+if (sys.argv[5] == 'true'):
+    string = "exec('{}')".format("".join("\\x{:02x}".format(ord(c)) for c in string))
+    print('ExtraProtV2 Output:' + string)
+    with open('ExtraProtV2OnlyOutput.py', 'w') as file4:
+        file4.write(string)
             
 listy = []
 for char in string:
