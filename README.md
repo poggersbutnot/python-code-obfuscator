@@ -19,7 +19,7 @@ Q: "How do i obfuscate without a input file?"
 A: python filename.py false None <isextraprot> <extraprotlayer> <isextraprot2>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Examples:**
+### **Examples:**
 
 - BPA Input With settings (false None true 10 true):
 ```python
