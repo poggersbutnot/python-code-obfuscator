@@ -12,18 +12,19 @@ Mostly Command Line tool that will obfuscate your code.
 - Best Protection Availiable Mode (BPA)
 - Simple Default Features
 
-**Examples:**
-
-- BPA Input With settings (false None true 10 true):
-```python
-print('abcd')
-```
 
 ### FAQ:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Q: "How do i obfuscate without a input file?"
 A: python filename.py false None <isextraprot> <extraprotlayer> <isextraprot2>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Examples:**
+
+- BPA Input With settings (false None true 10 true):
+```python
+print('abcd')
+```
 
 - BPA Output:
 ```python
