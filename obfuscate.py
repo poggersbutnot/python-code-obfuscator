@@ -3,7 +3,8 @@ import string as se
 # poggersbutnot.
 if (len(sys.argv) == 1):
     print('REM To use customizable features, do: \ncd ' + sys.argv[0].replace(os.path.basename(__file__), '') + '\n' + sys.argv[0][:2] + '\npython ' + os.path.basename(__file__) + ' <isinputfile> <inputfile> <isextraprot> <extraprotlayer> <isextraprot2>')
-
+    sys.argv = [sys.argv[0], 'false', 'None', 'false', '10', 'false']
+	
 num = {
     0: '(()==[])+(()==[])',
     1: '(()==())-(()==[])',
